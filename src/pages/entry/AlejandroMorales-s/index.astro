@@ -1,12 +1,15 @@
 ---
 import Layout from '@layout'
+// Components
+import Instructions from '@components/AlejandroMorales-s/Instructions'
 
 ---
 
 <Layout title='Alejandro'>
-	<main class='bg-slate-200 h-screen py-12'>
-		<h1 class='mb-12 text-center font-semibold text-3xl'><span class='text-violet-800'>Password</span> Generator</h1>
-		<div class='max-w-[1300px] bg-white rounded-xl shadow-lg w-[95%] m-auto'>
+	<main class='bg-slate-200 h-screen py-12 flex flex-col gap-12'>
+		<h1 class='text-center font-semibold text-3xl'><span class='text-violet-800'>Password</span> Generator</h1>
+		<div class='flex gap-12 flex-col md:grid md:grid-cols-2'>
+			<Instructions/>
 
 		</div>
 	</main>
